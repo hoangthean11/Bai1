@@ -1,0 +1,14 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+.item{
+    background-color: #71c2d6;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+    grid-column: auto / span 2;
+    height: 100px;
+}
